@@ -1,0 +1,31 @@
+/* CABEÇALHO */
+
+.cabecalho {
+    background-image: url('../assets/bg-image3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo table,
+.conteudo tr,
+.conteudo td {
+    border: solid 1px #000000;
+}
+
+.conteudo th {
+    background-color: #49ced0;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.conteudo td {
+    padding: 5px;
+    text-align: start;
+}

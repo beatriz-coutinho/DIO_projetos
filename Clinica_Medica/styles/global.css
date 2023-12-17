@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.conteudo {
+    position: relative;
+    left: 18%;
+    top: 48vh;
+    max-width: 80%;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+.menu {
+    background-color: #8afdffa6;
+    width: 18%;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.menu img {
+    position: relative;
+    left: 28%;
+    right: 28%;
+    margin: 60px 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 30px 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #49ced0;
+    padding: 15px 10px;
+    border: 1px solid #49ced0;
+    border-radius: 20px;
+}
+
+.menu ul li:hover,
+.menu ul li a:hover {
+    background-color: #49ced0;
+    color: #FFFFFF;
+}
+
+
+
+
+/* WEBSITE */
+
+.website {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* HEADER */
+
+.cabecalho {
+    height: 40vh;
+    position: absolute;
+    width: 82%;
+    left: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    font-size: 5em;
+    color: #49ced0be;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.cabecalho h3 {
+    color: #49ced0be;
+    text-shadow: 5px 5px 10px #000;
+    font-size: 2em;
+}
+
+
+
+/* FOOTER */
+
+.rodape {
+    display: flex;
+    position: absolute;
+    top: 94vh;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    width: 82%;
+
+    border-top: 1px solid #49ced0;
+    color: #3ca9ab
+}
+
+.rodape p:first-child {
+    margin: 0 10%;
+}
+
+.rodape p:last-child {
+    margin: 0 10%;
+}

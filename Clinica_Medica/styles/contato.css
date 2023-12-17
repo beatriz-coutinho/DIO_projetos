@@ -1,0 +1,57 @@
+.cabecalho {
+    background-image: url('../assets/bg-image4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informacoes {
+    width: 25vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    color: #49ced0;
+}
+
+.formulario {
+    width: 25vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    background-color: transparent;
+    border: 1px solid #49ced0;
+}
+
+.formulario button {
+    padding: 8px;
+    background-color: #49ced0;
+    color: #000000;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.informacoes h2 {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.endereco span {
+    margin-left: 60px;
+}
