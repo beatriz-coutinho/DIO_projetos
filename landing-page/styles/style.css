@@ -1,0 +1,166 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    background-color: #000000;
+    background-image: url(../assets/header/bg-image.png), url(../assets/header/bg-gradient.png);
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.cabecalho__div-logo {
+    background-color: #00000020;
+    border-radius: 50%;
+    width: 248px;
+    height: 214px;
+    padding: 15px;
+}
+
+.cabecalho h1 {
+    background-image: linear-gradient(to bottom, #33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.cabecalho p {
+    font-size: 20px;
+    width: 510px;
+    height: 46px;
+}
+.cabecalho button {
+    color: #33A8DB;
+    font-size: 16px;
+    font-weight: 900;
+    width: 326px;
+    height: 57px;
+    background-color: transparent;
+    border: 1px solid #33A8DB;
+}
+
+/* SECTION 01 */
+
+.section01 {
+    padding: 118px 324px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section01 h2 {
+    color: #33A8DB;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section01 > p {
+    width: 792px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.section01 button {
+    width: 535px;
+    height: 51px;
+    font-size: 16px;
+    background-color: #252525;
+    color: #FFFFFF;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+}
+
+.section01 button span {
+    color: #33A8DB;
+}
+
+
+/* SECTION 02 */
+
+.section02 {
+    height: 363px;
+    background-image: url(../assets/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33A8DB;
+}
+
+.section02 p {
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-size: 40px;
+    font-weight: 900;
+    width: 244px;
+    object-position: left;
+    padding: 120px 0 0 198px;
+}
+
+
+/* SECTION 03 */
+
+.section03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding-top: 76px;
+    border-bottom: 1px solid #33A8DB;
+    margin-bottom: 91px;
+}
+
+.section03 h2 {
+    color: #33A8DB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    width: 746px;   
+    margin-bottom: 32px;
+}
+
+.section03 p {
+    width: 792px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 91px;
+}
+
+
+
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape p {
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.rodape p span {
+    color: #33A8DB;
+}
