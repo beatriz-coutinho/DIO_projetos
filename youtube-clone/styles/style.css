@@ -1,0 +1,171 @@
+@import url(../styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 24px;
+}
+
+.cabecalho__inicio {
+    display: flex;
+    justify-content: space-between;
+    width: 146px;
+}
+
+.cabecalho__pesquisa {
+    width: 404px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__pesquisa input {
+    width: 348px;
+    border: 1px solid #CCCCCC;
+    height: 40px;
+}
+
+.cabecalho__pesquisa img {
+    padding: 8px 14px;
+    background-color: #F8F8F8;
+
+}
+
+.cabecalho__user {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    height: 34px;
+    align-items: center;
+}
+
+.cabecalho__user img:nth-child(2),
+.cabecalho__user img:first-child {
+    width: 24px;
+    height: 24px;
+}
+
+.cabecalho__user img:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+/* VÍDEO */
+
+.video {
+    margin: 28px 0 0 75px;
+}
+
+.video iframe {
+    width: 952px;
+    height: 537px;
+}
+
+.video h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 902px;
+    height: 42px;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+}
+
+.canal div p {
+    color: #515151;
+}
+
+.nav button {
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #FFFFFF;
+    border: 1px solid #CC0000;
+}
+
+.interacoes {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.interacoes img {
+    width: 24px;
+    height: 24px;
+}
+
+.interacoes p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.transmissao {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.transmissao span {
+    margin-right: 3.5px;
+}
+
+.descricao {
+    font-size: 14px;
+    width: 510px;
+    color: #515151
+}
+
+/* SUGERIDOS */
+
+main {
+    display: flex;
+    gap: 25px;
+}
+
+.sugeridos {
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px;
+}
+
+.video-sugerido {
+    display: flex;
+    gap: 16px;
+}
+
+.video-sugerido h2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.video-sugerido p {
+    color: #515151;
+}
+
+.video-sugerido > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
