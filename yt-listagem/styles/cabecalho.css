@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 56px;
+}
+
+.site {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0 16px 24px
+}
+
+.pesquisa {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    width: 404px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 14px
+}
+
+.pesquisa input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.usuario {
+    width: 130px;
+    height: 34px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.usuario .figuras {
+    width: 24px;
+    height: 24px;
+}
+
+.usuario .perfil {
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 50px;
+}

@@ -1,0 +1,23 @@
+nav {
+    margin-left: 24px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 24px;
+}
+
+.nav-container p {
+    color: #000000;
+    font-size: 14px;
+}
