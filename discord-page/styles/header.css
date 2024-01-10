@@ -1,0 +1,78 @@
+header {
+    background-image: url(../assets/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 69px 24px 70px 24px;
+    color: #FFFFFF;
+    gap: 24px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.intro h2 {
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 278px;
+    max-width: 313px;
+}
+
+.intro p {
+    max-width: 757px;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes button {
+    width: 381px;
+    height: 52px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: transparent;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botoes .download {
+    color: #000000;
+    background-color: #FFFFFF;;
+}
+
+@media screen and (min-width: 826px) {
+    header {
+        background-image: url(../assets/Header-grande.png);
+        height: 459px;
+    }
+
+    .intro {
+        align-items: center;
+    }
+
+    .intro h2,
+    .intro p {
+        text-align: center;
+    }
+
+    .botoes button {
+        width: 248px;
+        height: 44px;
+    }
+
+    .botoes .download {
+        width: 205px;
+    }
+}

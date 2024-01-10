@@ -1,0 +1,83 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+@import url(./header.css);
+@import url(./footer.css);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+section {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 379px;
+    height: 252px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.textos h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    max-width: 329px;
+}
+
+.textos p {
+    max-width: 348px;
+}
+
+.tipo2 {
+    background-color: #F6F6F6;
+}
+
+.diferente {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.textos .diferente-p {
+    max-width: 802px;
+}
+
+@media screen and (min-width: 826px) {
+
+    .side1 {
+        flex-direction: row;
+    }
+
+    section img {
+        width: auto;
+    }
+
+    .side2 {
+        flex-direction: row-reverse;
+    }
+
+    .side3 {
+        flex-direction: column;
+    }
+
+    .diferente,
+    .diferente-p {
+        text-align: center;
+        align-self: center;
+    }
+
+    section .diferente-div {
+        display: flex;
+    }
+}
