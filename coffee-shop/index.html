@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Coffee Shop</title>
+  <link rel="stylesheet" href="./assets/style/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="Art of a cup of coffee">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local">Find Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- CAROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/coffee.jpg" class="d-block w-100" alt="Coffee beans">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The ultimate cafe dining experience.</h5>
+            <p>Come and try the best coffees in the world.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/coffee-shop.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Our space was designed with your comfort in mind</h5>
+            <p>Our space was designed to offer you a comfortable, peaceful and light environment</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/coffee-making.jpg" class="d-block w-100" alt="Making of off our coffee">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The best grains</h5>
+            <p>We work with selected, quality ingredients, just as you deserve.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- QUOTE -->
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter fst-italic mt-5">We believe in changing the world with coffee and love.</h3>
+      </blockquote>
+    </figure>
+
+    <!-- ABOUT -->
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/images/card-1.jpg" class="img-fluid rounded-start"
+                  alt="Expresso coffee being poured to a cup">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">We love coffee</h5>
+                  <h6 class="card-subtitle text-muted mb-3">We believe coffe can change (your) world</h6>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem unde delectus
+                    nam modi repellat incidunt, recusandae voluptate temporibus eum consequatur totam quibusdam
+                    doloremque ab, nisi facilis vero quod quis ullam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/images/card-2.jpg" class="img-fluid rounded-start" alt="Art with milk and coffee">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Premium team of baristas</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Specialized professionals to bring the best coffee to your
+                    table</h6>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem unde delectus
+                    nam modi repellat incidunt, recusandae voluptate temporibus eum consequatur totam quibusdam
+                    doloremque ab, nisi facilis vero quod quis ullam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="container mt-5 mb-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="hot-tab" data-bs-toggle="tab" data-bs-target="#hot-tab-pane" type="button"
+            role="tab" aria-controls="hot-tab-pane" aria-selected="true">Hot Coffee</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="iced-tab" data-bs-toggle="tab" data-bs-target="#iced-tab-pane" type="button"
+            role="tab" aria-controls="iced-tab-pane" aria-selected="false">Iced Coffee</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="snacks-tab" data-bs-toggle="tab" data-bs-target="#snacks-tab-pane" type="button"
+            role="tab" aria-controls="snacks-tab-pane" aria-selected="false">Snacks</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="coffeesTabContent">
+        <div class="tab-pane fade show active" id="hot-tab-pane" role="tabpanel" aria-labelledby="hot-tab" tabindex="0">
+          <!-- HOT COFFEE CARDS -->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-espresso.jpeg" class="card-img-top" alt="Espresso">
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-latte.jpg" class="card-img-top" alt="Latte">
+                <div class="card-body">
+                  <h5 class="card-title">Latte</h5>
+                  <p class="card-text">R$10,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-mocha.jpg" class="card-img-top" alt="Mocha">
+                <div class="card-body">
+                  <h5 class="card-title">Mocha</h5>
+                  <p class="card-text">R$10,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-cappuccino.jpg" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$10,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-flat white.jpg" class="card-img-top" alt="Flat-white">
+                <div class="card-body">
+                  <h5 class="card-title">Flat-white</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/h-irish.jpg" class="card-img-top" alt="Irish">
+                <div class="card-body">
+                  <h5 class="card-title">Irish</h5>
+                  <p class="card-text">R$11,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="iced-tab-pane" role="tabpanel" aria-labelledby="iced-tab" tabindex="0">
+          <!-- ICED COFFEE CARDS -->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-iced coffee.jpg" class="card-img-top" alt="Iced Coffee">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$10,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-caramel.jpg" class="card-img-top" alt="Caramel Frappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Caramel Frappuccino</h5>
+                  <p class="card-text">R$15,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-chocolate.jpg" class="card-img-top" alt="Chocolate Frappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate Frappuccino</h5>
+                  <p class="card-text">R$15,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-cinnamon.jpg" class="card-img-top" alt="Cinnamon Frappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cinnamon Frappuccino</h5>
+                  <p class="card-text">R$15,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-cold brew.jpg" class="card-img-top" alt="Cold brew">
+                <div class="card-body">
+                  <h5 class="card-title">Cold brew</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/i-cookie.jpg" class="card-img-top" alt="Cookie Frappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cookie Frappuccino</h5>
+                  <p class="card-text">R$15,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="snacks-tab-pane" role="tabpanel" aria-labelledby="snacks-tab" tabindex="0">
+          <!-- SNACKS CARD -->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-cinnamon roll.jpg" class="card-img-top" alt="Cinnamon Roll">
+                <div class="card-body">
+                  <h5 class="card-title">Cinnamon Roll</h5>
+                  <p class="card-text">R$5,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-cookie.jpg" class="card-img-top" alt="Cookie">
+                <div class="card-body">
+                  <h5 class="card-title">Cookie</h5>
+                  <p class="card-text">R$5,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-croissant.jpg" class="card-img-top" alt="Croissant">
+                <div class="card-body">
+                  <h5 class="card-title">Croissant</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-cupcake.jpg" class="card-img-top" alt="Cupcake">
+                <div class="card-body">
+                  <h5 class="card-title">Cupcake</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-muffin.jpg" class="card-img-top" alt="Muffin">
+                <div class="card-body">
+                  <h5 class="card-title">Muffin</h5>
+                  <p class="card-text">R$8,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="./assets/images/s-pumpkin pie.jpg" class="card-img-top" alt="Pumpkin Pie">
+                <div class="card-body">
+                  <h5 class="card-title">Pumpkin Pie</h5>
+                  <p class="card-text">R$10,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCAL -->
+    <section class="container text-center mb-5"id="local">
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  We are here!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">We are waiting for you!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>2300 Jackson Street, no. 16</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.8606440174567!2d-122.43069428897684!3d37.79330551097612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580c3df107ec3%3A0xc1f1be378c79b150!2sJackson%20St%2C%20San%20Francisco%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1706210835349!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+  </main>
+
+  <footer class="text-center bg-dark p-5 mt-5 text-light">
+    <img src="./assets/images/logo.png" alt="Art of a cup of coffee" width="80px">
+    <p class="mt-4 mb-0 fw-bold">CSS Coffee Shop | A whole new experience with coffee</p>
+    <p>(NPA) NXX-XXXX</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

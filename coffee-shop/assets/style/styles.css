@@ -1,0 +1,62 @@
+/* NAVBAR */
+
+.navbar .btn,
+.container .btn {
+    --bs-btn-border-color: #774632;
+    --bs-btn-hover-bg: #774632;
+    --bs-btn-hover-border-color: #C48634;
+    --bs-btn-color: #774632;
+    --bs-btn-hover-color: #C48634;
+    --bs-btn-active-bg: #C48634;
+    --bs-btn-active-border-color: #774632;
+    --bs-btn-active-color: #774632;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+/* MENU */
+
+.tab-pane .card-menu {
+    height: 450px;
+    object-fit: cover;
+}
+
+.tab-pane .card-menu .card-img-top {
+    height: 80%;
+}
+
+.nav-link {
+    --bs-nav-link-color: #C48634;
+    --bs-nav-link-hover-color: #774632;
+    --bs-nav-link-active-color: #774632;
+}
