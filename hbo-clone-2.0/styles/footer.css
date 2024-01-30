@@ -1,0 +1,48 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #9e86ff;
+    margin-top: 100px;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    color: #9e86ff;
+    margin: 8px 0;
+}
+
+footer p {
+    margin: 12px 0 70px 0;
+    font-size: 0.75rem;
+}
+
+footer .redes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+@media screen and (min-width: 481px) {
+    footer .links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 5px;
+    }
+
+    footer .links a {
+        margin: 0 14px;
+        letter-spacing: 2px;
+    }
+}
